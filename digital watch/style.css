@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.color{
+    background: #ff5959;
+}
+.align{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    position:relative;
+    top:160px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    height:300px;
+    width:800px;
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    border-radius:10px;
+}
+.hour{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:black;
+    height:200px;
+    width:150px;
+    position: relative;
+    top:50px;
+    left:13px;
+    border-radius: 10px;
+}
+.min{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:black;
+    height:200px;
+    width:150px;
+    position: relative;
+    top:50px;
+    left:12px;
+    border-radius: 10px;
+}
+.sec{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:black;
+    height:200px;
+    width:150px;
+    position: relative;
+    top:50px;
+    left:10px;
+    border-radius: 10px;
+}
+.mode{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:black;
+    height:200px;
+    width:200px;
+    position: relative;
+    top:50px;
+    right:16px;
+    border-radius: 10px;
+}
+#time{
+    position:relative;
+    bottom:100px;
+    color:white;
+    font-size: 140px;
+    text-align: center;
+}
