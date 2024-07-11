@@ -1,0 +1,138 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background: #25252c;
+    font-family:Arial, Helvetica, sans-serif;
+}
+span{
+    color:red;
+}
+.name{
+    color:white;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+}
+h5{
+    position: relative;
+    top:25px;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:400px;
+    width:280px;
+    background-color:#ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:80px;
+}
+input{
+    outline: none;
+    padding:6px 10px;
+    height:25px;
+    width:200px;
+    border:1px solid black;
+    border-radius: 5px;
+    position: relative;
+    top:20px;
+    margin:10px;
+}
+.res{
+    position: relative;
+    top:60px;
+}
+.calc{
+    cursor: pointer;
+    height:40px;
+    width:220px;
+    border-width: 0px;
+    background-color:#ff0062;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    position: relative;
+    top:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.guide{
+    padding:6px 20px;
+    border:2px ;
+    text-align: center;
+    position: relative;
+    top:80px;
+    font-size: 15px;
+    height:80px;
+    width:100%;
+}
+h4{
+    padding:5px;
+}
+.result{
+    position: relative;
+    top:70px;
+}
+.guide p{
+    padding:5px;
+}
+.less{
+    background:rgb(255, 255, 0);
+}
+.normal{
+    background:greenyellow;
+}
+.greater{
+    background:red;
+}
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  
+    .name {
+      width: 100%;
+      font-size: 10px;
+      padding: 0 0px;
+    }
+  
+    .cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height:300px;
+        width:210px;
+        margin: 0;
+        padding: 0px;
+    }
+    .result{
+        font-size:12px;
+    }
+    input{
+        height:10px;
+        width:130px;
+    }
+    .calc{
+        height:30px;
+        width:150px;
+    }
+    .guide{
+        padding:3px 10px;
+        border:2px ;
+        text-align: center;
+        position: relative;
+        top:80px;
+        font-size: 10px;
+    }
+}
