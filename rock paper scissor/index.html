@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/3be5529905.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>ROCK PAPER SCISSOR GAME</h1>
+        <div class="winner">
+            <h4 class="player-score">Player Won=0</h4>
+            <h4 class="computer-score">Computer Won=0</h4>
+        </div>
+        <div class="choices">
+            <div class="choice" id="rock">
+              <i class="fas fa-hand-rock"></i>
+            </div>
+            <div class="choice" id="paper">
+              <i class="fas fa-hand-paper"></i>
+            </div>
+            <div class="choice" id="scissors">
+              <i class="fas fa-hand-scissors"></i>
+            </div>
+          </div>
+        <div id="computer-choice"></div>
+        <div class="result" id="result">Result</div>
+        <div class="timer" id="timer">
+            <p>Time left: <span id="countdown">10</span>s</p>
+          </div>
+        <div class="play-again" id="play-again">
+            <button class="play">Play-Again</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
