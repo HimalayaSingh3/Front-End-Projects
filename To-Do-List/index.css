@@ -1,0 +1,130 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+body{
+    background: #1f1a1a;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.list{
+    border-radius: 20px;
+    background: #fa4646;
+    text-align: center;
+    height:190px;
+    width:50%;
+}
+.content{
+    margin-top: 35px;
+}
+.cont{
+    display:flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.cont input{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width:550px;
+    height:50px;
+    padding: 20px 20px;
+    border:none;
+    background:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    outline:none;
+    font-size:20px;
+}
+.cont input::placeholder{
+    color:black;
+    outline: 0px;
+}
+.cont button{
+    background:yellow;
+    cursor: pointer;
+    font-size: 20px;
+    height:50px;
+    width:80px;
+    border:none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-weight:700;
+}
+ul{
+    margin-top:40px
+}
+li {
+    padding-left:10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    height:50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: #f0e8e8;
+    font-weight: 600;
+}
+.delete{
+    height:50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background:transparent;
+    width:50px;
+    outline:none;
+    border: 0px;
+    font-size: 10px;
+    font-weight: 700;
+}
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        margin-top: 50px;
+    }
+    .list{
+        height:150px;
+        width:70%;
+    }
+    .content{
+        margin-top: 15px;
+    }
+    .cont{
+        margin-top: 35px;
+    }
+    .cont input{
+        width:210px;
+        height:30px;
+        padding: 10px 20px;
+        font-size:12px;
+    }
+    .cont button{
+        font-size: 10px;
+        height:30px;
+        width:30px;
+    }
+    
+    li {
+        height:30px;
+        margin-bottom: 2px;
+        font-size: 12px;
+        
+    }
+    .delete{
+        height:30px;
+        background:transparent;
+        width:30px;
+        font-size: 8px;
+    }
+}
