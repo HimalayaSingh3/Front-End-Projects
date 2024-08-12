@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(250, 250, 250);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+button{
+    padding:20px 40px;
+    font-size: 30px;
+    font-weight: 600;
+    color:white;
+    background: #000;
+    border:none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+button:hover{
+    border:5px solid rgb(255, 0, 0);
+}
