@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    gap:20px;
+}
+h1{
+    color:white;
+    font-size: 25px;
+}
+.temperature{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    border:2px solid white;
+    padding:10px 20px;
+    color:white;
+}
+.c-f:hover{
+    background:blue;
+}
+.c-k:hover{
+    background:rgb(19, 207, 13);
+}
+.f-c:hover{
+    background:purple;
+}
+.f-k:hover{
+    background:rgb(255, 0, 0);
+}
+.k-f:hover{
+    background:rgb(255, 153, 0);
+}
+.k-c:hover{
+    background:rgb(210, 224, 9);
+}
