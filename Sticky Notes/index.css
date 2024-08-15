@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: cursive;
+}
+body{
+    height:100vh;
+    background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(122,183,255,1) 0%, rgba(21,83,161,1) 90% );
+}
+#add{
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    background: #ffbb00;
+    margin:10px 10px;
+    font-size: 20px;
+    border:none;
+    cursor: pointer;
+    padding:10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#add:hover{
+    transition: .8s;
+    background: #0400ff;
+    color:white;
+}
+.sticky-notes{
+    margin-bottom: 30px;
+    height:100vh;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sticky{
+    box-shadow: 10px 4px 5px rgb(0, 0, 0);
+    height:280px;
+    width:220px;
+    text-align: center;
+    background: #ffd31d;
+    margin:20px;
+    font-size:24px;
+    color:white;
+    outline:none;
+    padding:15px;
+}
+.close{
+    font-size: 26px;
+    position: absolute;
+    top:0;
+    right:5px;
+    cursor: pointer;
+    width:20px;
+}
