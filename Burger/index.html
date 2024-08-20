@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger</title>
+    <link rel="stylesheet" href="index.css"> 
+    <script src="https://kit.fontawesome.com/3be5529905.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <navbar>
+        <h1>BURGER</h1>
+        <ul id="sideMenu">
+            <li>Home</li>
+            <li>Menu</li>
+            <li>About</li>
+            <li>Shop</li>
+            <i class="fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
+        </ul>
+        <i class="fa-solid fa-burger" onclick="openMenu()"></i>
+    </navbar>
+    <div class="col">
+        <div class="col1">
+            <h2>The Ultimate Burger Club</h2>
+            <p>Savor the Flavor and Join the Club!</p>
+            <div class="col1-images">
+                <img src="images/b1.png" alt="" id="img1" onclick="imageSel()">
+                <img src="images/b2.png" alt="" id="img2" onclick="imageSel1()">
+                <img src="images/b3.png" alt="" id="img3" onclick="imageSel2()">
+                <img src="images/b4.png" alt="" id="img4" onclick="imageSel3()">
+            </div>
+        </div>
+        <div class="col2">
+            <div class="col2-images">
+                <img src="images/b1.png" alt="" class="img1" id="image1">
+                <img src="images/b2.png" alt="" class="img2" id="image2">
+                <img src="images/b3.png" alt="" class="img3" id="image3">
+                <img src="images/b4.png" alt="" class="img4" id="image4">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
