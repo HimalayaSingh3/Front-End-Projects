@@ -1,0 +1,28 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100%;
+    background: #000;
+}
+.wheel{
+    height:400px;
+    width:400px;
+    background: #111;
+    border-radius: 50%;
+    background-image: conic-gradient(red,orange,yellow,green,blue,indigo,violet,red);
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
