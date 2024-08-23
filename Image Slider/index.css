@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #363636;
+}
+button{
+    cursor: pointer;
+    border:none;
+    color:rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    font-weight: 700;
+    outline:none;
+    height:510px;
+    width:50px;
+    font-size: 50px;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:5px solid rgb(255, 255, 255);
+    height:500px;
+    width:700px;
+}
+img{
+    animation:2s linear 1 ;
+    height:500px;
+    width:700px;
+    z-index: -1;
+}
+.slide1{
+    display: block;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(00);
+    }
+    100%{
+        transform: translateX(30px);
+    }
+    
+}
