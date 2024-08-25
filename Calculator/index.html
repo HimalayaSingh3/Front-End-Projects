@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet"href="index.css">
+    <script src="https://kit.fontawesome.com/3be5529905.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="calc">
+    <div id="display">0</div>
+    <div class="btns">
+        <button class="ac" onclick="clearDisplay()">AC</button>
+        <button onclick="appendNumber('00')">00</button>
+        <button onclick="appendOperator('%')">%</button>
+        <button onclick="appendOperator('/')">/</button>
+        <button onclick="appendNumber('7')">7</button>
+        <button onclick="appendNumber('8')">8</button>
+        <button onclick="appendNumber('9')">9</button>
+        <button onclick="appendOperator('*')">x</button>
+        <button onclick="appendNumber('4')">4</button>
+        <button onclick="appendNumber('5')">5</button>
+        <button onclick="appendNumber('6')">6</button>
+        <button onclick="appendOperator('-')">-</button>
+        <button onclick="appendNumber('1')">1</button>
+        <button onclick="appendNumber('2')">2</button>
+        <button onclick="appendNumber('3')">3</button>
+        <button onclick="appendOperator('+')">+</button>
+        <button onclick="appendNumber('0')">0</button>
+        <button onclick="appendNumber('.')">.</button>
+        <button onclick="deleteLast()"><i class="fa-solid fa-delete-left"></i></button>
+        <button class="evaluate" onclick="calculateResult()">=</button>
+    </div>
+   </div>
+</body>
+<script src="index.js"></script>
+</html>
