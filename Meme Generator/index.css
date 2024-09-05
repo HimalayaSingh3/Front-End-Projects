@@ -1,0 +1,109 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "poppins",sans-serif;
+}
+body{
+    background: #159957;  /* fallback for old browsers */
+}
+.meme{
+    margin-top:50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gen{
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    height:500px;
+    width:500px;
+    text-align: center;
+}
+.head{
+    color:white;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #CB356B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    position: relative;
+    bottom:55px;
+    height:60px;
+    width:100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:bolder;
+}
+#btn{
+    border-radius:5px;
+    border-width:0px;
+    height:30px;
+    width:80px;
+    color:black;
+    font-weight:bolder;
+    background-image: radial-gradient( circle 331px at 1.4% 52.9%,  rgb(231, 213, 12) 0%, rgba(255,223,2,1) 33.6%, rgba(255,187,29,1) 61%, rgba(255,175,7,1) 100.7% );
+    position: relative;
+    bottom:50px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#meme{
+    color:black;
+    height:350px;
+    width:450px;
+    display:flex;
+    align-items: center;
+    position: relative;
+    bottom:20px;
+}
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    /* Styles for mobile view go here */
+    
+  
+    .meme {
+        margin-top:100px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .gen{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height:470px;
+        width:350px;
+        text-align: center;
+    }
+  #meme{
+    color:black;
+    height:300px;
+    width:350px;
+    display:flex;
+    align-items: center;
+    position: relative;
+    bottom:20px;
+  }
+  .head{
+    font-size: 25px;
+  }
+  
+  }
+  
