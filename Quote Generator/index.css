@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "poppins",sans-serif;
+}
+body{
+    background: #DC2424;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A569D, #DC2424);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+.quote{
+    margin-top:100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+.gen{
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    height:300px;
+    width:500px;
+}
+.gen{
+    text-align: center;
+}
+.head{
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: radial-gradient( circle 331px at 1.4% 52.9%,  rgba(255,236,2,1) 0%, rgba(255,223,2,1) 33.6%, rgba(255,187,29,1) 61%, rgba(255,175,7,1) 100.7% );
+    position: relative;
+    bottom:40px;
+    height:60px;
+    width:100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:bolder;
+}
+#btn{
+    border-radius:5px;
+    border-width:0px;
+    height:30px;
+    width:80px;
+    color:white;
+    font-weight:bolder;
+    background-color:red;
+    position: relative;
+    top:10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#quote{
+    height:100px;
+    width:450px;
+    display:flex;
+    align-items: center;
+    position: relative;
+    bottom:20px;
+    color:black;
+}
+.by{
+    height:30px;
+    width:200px;
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom:20px;
+}
+@media only screen and (max-width:600px){
+    .gen{
+        height:300px;
+        width:350px;
+    }
+    .head{
+        font-size: 25px;
+    }
+    #quote{
+        width: 320px;
+    }
+}
