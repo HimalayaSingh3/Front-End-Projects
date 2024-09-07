@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    border:1px solid black;
+    height:200px;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000;
+}
+.rating{
+    font-size: 70px;
+    color:white;
+    margin-top: 20px;
+}
+span{
+    cursor: pointer;
+}
+h1{
+    color:white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.one {
+    color: rgb(255, 0, 0);
+  }
+   
+  .two {
+    color: rgb(255, 106, 0);
+  }
+   
+  .three {
+    color: rgb(251, 255, 120);
+  }
+   
+  .four {
+    color: rgb(255, 255, 0);
+  }
+   
+  .five {
+    color: rgb(24, 159, 14);
+  }
