@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age</title>
+    <link rel="stylesheet"href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AGE CALCULATOR</h1>
+        </header>
+        <div class="content">
+            <div class="dob">
+                <h4>Select Date of Birth</h4>
+                <input type="date" id ="dob" value="2000-01-01">
+            </div>
+            <div class="current">
+                <h4>Select Current Date</h4>
+                <input type="date" id="current" value="">
+            </div>
+            <br>
+            <button onclick="getDOB()">Calculate</button>
+            <br>
+            <div class="result" id="result" ></div>
+        </div>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
