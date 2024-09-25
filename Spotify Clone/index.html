@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                <img src="./assets/backward_icon.png">
+                <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                <button class="badge nav-item hide">Explore Premium</button>
+                <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                <i class="fa-regular fa-user nav-item" style="cursor: pointer;"></i>
+                </div>
+            </div>
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+            <h2>Made For You</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/Daily-1.png" class="card-img">
+                    <p class="card-title">Daily Mix 1</p>
+                    <p class="card-info">Darshan Raval,Vishal Mishra,Sachet Tandon and more</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/Daily-2.png" class="card-img">
+                    <p class="card-title">Daily Mix 2</p>
+                    <p class="card-info">Shubh,Karan Aujla,AP Dhillon and more</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/Daily-3.png" class="card-img">
+                    <p class="card-title">Daily Mix 3</p>
+                    <p class="card-info">Karan Aujla,Lijo George-Dj Chetas,Mika Singh and more</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/Daily-4.png" class="card-img">
+                    <p class="card-title">Daily Mix 4</p>
+                    <p class="card-info">Pritam,Zack Knight,Atif Aslam and more</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/Daily-5.png" class="card-img">
+                    <p class="card-title">Daily Mix 5</p>
+                    <p class="card-info">Diljit Dosanjh,Yo Yo Honey Singh,Imran Khan and more</p>
+                </div>
+            </div>
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Mahiye Jinna Sohna </p>
+                    <p class="card-info">Song - Darshan Raval</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" class="card-img">
+                    <p class="card-title">Best Of Rahat Fateh Ali Khan</p>
+                    <p class="card-info">Playlist - Zusic India</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card4img.jpeg" class="card-img">
+                    <p class="card-title">Naa Ready (From "Leo")</p>
+                    <p class="card-info">Song - Anirudh Ravichander,Thalapathy Vijay,Asal Kolaar</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/Happy-vibes.png" class="card-img">
+                    <p class="card-title">Happy Vibes</p>
+                    <p class="card-info">Bright,sunny,catchy tunes put a smile on your face...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/Diljit-dosanjh.png" class="card-img">
+                    <p class="card-title">Diljit Dosanjh Playlist</p>
+                    <p class="card-info">Artist</p>
+                </div>
+            </div>
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs - Global</p>
+                    <p class="card-info">Your weekly update of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs - India</p>
+                    <p class="card-info">Your weekly update of the most played tracks right...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/Top-50.png" class="card-img">
+                    <p class="card-title">Top 50 - India</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="./assets/album_picture.jpeg" class="album-song">
+                <span class="album-lines">
+                <a href="#" style="font-size: 15px;">Daylight</a>
+                <a href="#" style="opacity: 0.7; font-size: 12px;">David Kushner</a>
+                </span>
+               <img src="./assets/album_icon1.png" class="album-song-icon" style="right: 0;">
+               <img src="./assets/album_icon2.png" class="album-song-icon" style="height: 1.75rem; padding-left: 0.5rem;">
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1" value="0">
+                    <span class="tot-time">4:02</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="./assets/controls_icon1.png" class="controls-icon" style="height:2.5rem;">
+                <img src="./assets/controld_icon2.png" class="controls-icon" style="height:2.5rem;">
+                <img src="./assets/controls_icon3.png" class="controls-icon" style="height: 1.5rem;">
+                <img src="./assets/controls_icon4.png" class="controls-icon" style="opacity: 0.7;">
+                <div class="controls-vol">
+                <img src="./assets/controls_icon5.png" style="height: 2.5rem;">
+                <input type="range" min="0" max="100" class="controls-icon" step="1" value="30">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
