@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: monospace;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #332e2e;
+}
+.container{
+    background:rgb(0, 89, 255);
+    border:1px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:350px;
+    padding: 20px 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.content input{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:15px 10px;
+    width:300px;
+    border:1px solid white;
+}
+.content button{
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+    width: 324px;
+    padding:12px 10px;
+    border:1px solid white;
+    background: rgb(255, 0, 106);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.info{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+#weatherResult{
+    display: none;
+}
+.row1{
+    text-align: center;
+}
+.row2{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+.col1{
+    flex-basis: 50%;
+    text-align: center;
+}
+.row1 img{
+    height: 120px;
+}
+.row1 h2{
+    font-size: 60px;
+}
+.row1 a{
+    font-size: 30px;
+}
+.col2{
+    flex-basis: 50%;
+    text-align: center;
+}
+.speed{
+    font-size: 30px;
+}
+.error{
+    margin-top: 10px;
+    display: none;
+}
