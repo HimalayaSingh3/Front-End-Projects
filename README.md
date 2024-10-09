@@ -73,58 +73,7 @@ Here are **100** standout projects in this repository:
 49. **🐉 Dragon Game**
 50. **🖼️ Drag & Drop Image Upload**
 
-### Additional 50 Projects
 
-51. **🌐 Personal Portfolio Website**  
-52. **🎮 Pac-Man Game**  
-53. **🔍 Search Engine**  
-54. **📝 Markdown Editor**  
-55. **🌌 Space Invaders Game**  
-56. **🍕 Pizza Order System**  
-57. **🏕️ Camping Trip Planner**  
-58. **🎨 Art Gallery Website**  
-59. **📊 Data Visualization Dashboard**  
-60. **💻 Code Snippet Manager**  
-61. **🚀 Rocket Launch Countdown Timer**  
-62. **🎶 Music Playlist Manager**  
-63. **🏆 Trivia Quiz App**  
-64. **🌍 World Clock**  
-65. **👤 User Authentication System**  
-66. **📅 Event Countdown Timer**  
-67. **💡 Light/Dark Mode Toggle**  
-68. **📦 Package Tracker**  
-69. **🔊 Soundboard App**  
-70. **🚗 Car Rental System**  
-71. **✈️ Flight Booking System**  
-72. **📚 E-book Reader**  
-73. **🌈 CSS Animation Gallery**  
-74. **🏠 Real Estate Listing Site**  
-75. **🛍️ Shopping Cart Functionality**  
-76. **⚡ Flashcard Learning Tool**  
-77. **🤖 Chatbot Interface**  
-78. **🔒 Password Strength Checker**  
-79. **🌐 Multi-language Support Site**  
-80.  **🍦 Ice Cream Shop Landing Page**  
-81 .   **🏨 Hotel Landing Page**  
-82 .   **🍔 Burger Restaurant Page**  
-83 .   **🥗 Recipe Sharing Platform**  
-84 .   **🎥 Movie Review Site**  
-85 .   **🏞️ Travel Blog Website**  
-86 .   **💬 Forum Discussion Board**  
-87 .   **👗 Fashion Store Website**  
-88 .   **🚴‍♂️ Fitness Class Booking System**  
-89 .   **👩‍🍳 Cooking Recipe App**  
-90 .   **🧘 Meditation Timer App**  
-91 .   **🚧 Construction Company Site**  
-92 .    🌍 Environmental Awareness Site  
-93 .    👶 Baby Name Generator  
-94 .    👩‍🎓 Student Management System  
-95 .    ⚽ Sports Team Management  
-96 .    📆 Personal Calendar App  
-97 .    🔑 Secure Notes Keeper  
-98 .    🎟️ Event Ticket Booking  
-99 .    🧩 Puzzle Game  
-100 .   🎉 Celebration Countdown Timer 
 
 ## 🛠️ Technologies Used
 
